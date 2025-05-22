@@ -1,9 +1,17 @@
-function Button(){
-  
-    const handleClick = (e) => e.target.textContent = "OUCH!";
+import { useState } from "react";
 
-    return(<button className="crazy-button" onDoubleClick={handleClick}>Click me!</button>)
+function Button() {
+  const [clicked, setClicked] = useState(false);
 
+  const handleDoubleClick = (e) => {
+    setClicked((prev) => !prev);
+  };
+
+  return (
+    <button className="crazy-button" onDoubleClick={handleDoubleClick}>
+      {clicked ? "OUCH!" : "Click me!"}
+    </button>
+  );
 }
 
-export default Button
+export default Button;

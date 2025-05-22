@@ -22,7 +22,7 @@ return( <div className="count-contaier">
     <h1>Counter</h1>
     <p className="count-display">{count}</p>
     <button className="count-button" onClick={decrement}>Decrement</button>
-    <button className="count-button" onDoubleClick={reset}>Reset</button>
+    <button className="count-button" onClick={reset}>Reset</button>
     <button className="count-button" onClick={increment}>Increment</button>
 
 </div>)
