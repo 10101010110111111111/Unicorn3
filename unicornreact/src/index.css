@@ -275,3 +275,98 @@ body {
   background: linear-gradient(135deg, #ff4da6, #ffaa33);
   box-shadow: 0 6px 18px rgba(255, 0, 128, 0.3);
 }
+
+.add-button {
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  margin: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+.add-button:hover {
+  background-color: #218838;
+}
+.delete-button {
+  padding: 12px;
+  background-color: #dc3545;
+  color: white;
+  margin: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.delete-button:hover {
+  background-color: #c82333;
+}
+.delete-button:active {
+  background-color: #bd2130;
+}
+.delete-button:focus {
+  outline: none;
+}
+.move-button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  margin: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.move-button:hover {
+  background-color: #0056b3;
+  
+}
+.move-button:active {
+  background-color: #004085;
+}
+.text{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: background-color 0.3s;
+  
+
+}
+
+
+   
+    button:active {
+      transform: scale(1.2);
+      transition: transform 0.2s;
+      background-color: #0bc446;
+    }
+    
+    
+    
+
+
+li {
+  list-style-type: none;
+}
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* You can add more cloned raindrops with JS or pseudo-elements for variety */
+
+

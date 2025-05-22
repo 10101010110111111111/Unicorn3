@@ -4,15 +4,17 @@ import Counter from "./Counter.js";
 import Typing from "./Typing.js";
 import ColorPicker from "./ColorPicker.js"; 
 import List from "./List.js";
+import ToDoList from "./ToDoList.js";
 function App() {
  
 
   return (<>
-  <List/><br /><br /><br />
-   <ColorPicker/><br /><br /><br />
-   <Counter/><br /><br /><br />
-   <Button/><br /><br /><br />
-   <MyComponent/><br /><br /><br />
+  <List/>
+   <ColorPicker/>
+   <Counter/>
+   <Button/>
+   <MyComponent/>
+   <ToDoList/>
   
     </>);
 }
